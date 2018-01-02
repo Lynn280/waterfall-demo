@@ -1,0 +1,26 @@
+* {
+   padding: o;
+   margin: 0;
+}
+html,body{width: 100%;height:100%;}
+#main {
+   margin: 0 auto;
+   width: 1000px;
+   position: relative;
+}
+
+.pin {
+   float: left;
+   padding: 15px 15px 0 0;
+}
+
+.box {
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-shadow: 0 0 5px #ccc;
+}
+
+img {
+   width: 160px;
+}
