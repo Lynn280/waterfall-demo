@@ -6,7 +6,6 @@ window.onload=function(){
 		var items=getByClass(oParent,'pin');
 		var lastItems=items[items.length-1];
 		var clientH=document.documentElement.clientHeight||document.body.clientHeight;
-		console.log('clientH='+clientH)
 		var scrollT=document.documentElement.scrollTop||document.body.scrollTop;
 		var height=lastItems.offsetTop+lastItems.offsetHeight/2-scrollT;
         
